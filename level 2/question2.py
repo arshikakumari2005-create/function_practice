@@ -9,8 +9,8 @@ def vowels(text):
     print("vowels_word=",vowels_store)  
     print("count=",vowels_count)      
 
-word=input("enter word=")
-vowels(word)
+word=input("enter word=").lower()
+vowels(word) 
 
 # o\p
 # enter word=education
