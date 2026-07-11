@@ -1,4 +1,4 @@
-# find the largest number in list without useing max().
+# find the largest number in list without using max().
 def largest_num(user_list):
     largest = user_list[0]
     for x in user_list:
